@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo image_section">Pisocial</div>
+        <button><i class="fa fa-linkedin-square"></i>Sign Up with LinkedIn</button>
+        <button><i class="fa fa-twitter"></i>Sign Up with Twitter</button>
+        <button><i class="fa fa-facebook-square"></i>Sign Up with Facebook</button>
+    </header>
+    <form action="#" method="post">
+        <div class="header">
+
+            <legend>Sign Up</legend>
+            <p class="sub_legend">Get started absolutely free</p>
+        </div>
+
+
+        <div class="form_total">
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="John" minlength="3">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="********" minlength="8">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Doe" minlength="3">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="(/^\+?[0-9]\d{1,20}$/)">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="********"
+                    minlength="8">
+            </div>
+        </div>
+
+
+        <label for="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            Creating an account means you’re okay with our <a href="#">Terms of Service</a>, <a href="#">Privacy
+                Policy</a>, and
+            default Notification Settings</label>
+        <input type="button" value="Sign Up">
+    </form>
+    <script src="../sign-up-form/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/b435582571.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

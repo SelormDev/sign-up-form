@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Cassadio";
+  src: url("../fonts/Cassadio.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #4f4f4f;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 123px;
+  height: 62.299px;
+  color: #fffdfd;
+  font-size: 41.532px;
+  font-family: Cassadio, sans-serif;
+  position: absolute;
+  top: 1rem;
+  left: 2.5rem;
+}
+
+.fa {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-linkedin-square {
+  color: #0e76a8;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+legend {
+  font-size: 45px;
+  font-family: Gilroy-Bold, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 6.75px;
+}
+
+.form_total {
+  display: flex;
+  gap: 4rem;
+}
+
+.sub_legend {
+  color: rgba(79, 79, 79, 0.8);
+  font-family: Gilroy-Medium;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+label {
+  font-size: 16px;
+  font-family: Gilroy-Regular, sans-serif;
+  text-align: left;
+}
+
+input {
+  width: 300px;
+  height: 47px;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  width: 385px;
+  height: 47px;
+  border-radius: 15px;
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 16px;
+  color: #707070;
+  box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+  margin-bottom: 35px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+input[type="button"] {
+  background-color: #03a9f4;
+  cursor: pointer;
+}
+
+.style_one {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
